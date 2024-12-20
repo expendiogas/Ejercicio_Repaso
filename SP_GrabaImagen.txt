@@ -1,0 +1,9 @@
+ALTER PROCEDURE [dbo].[sp_GrabaImagen]    
+   @Id_S int
+AS
+BEGIN  
+  Update MaeS
+  set ImagenMarca= (SELECT * FROM OPENROWSET(BULK N'C:\temp\Logo.png', SINGLE_BLOB) AS img1),
+  ImagenDisp= (SELECT * FROM OPENROWSET(BULK N'C:\temp\Logo.png', SINGLE_BLOB) AS img1)
+  where Id_S=@Id_S
+END

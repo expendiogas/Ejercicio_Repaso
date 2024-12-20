@@ -28,3 +28,7 @@ CONCEPTOS Y EJERCICIOS POR ISMAR
 	R// Sirve para subir un cambio a GitHub luego de realizar un commit 
 3. SUBIR UN ARCHIVO EDITABLE A ESE REPOSITORIO, CUALQUIER ARCHIVO (TXT, WORD, EXCEL, PPT)
 4.CARGAR UN ARCHIVO TXT CON UN SP SIMPLE DE UNA DB
+	R// Se cargó un archivo con nombre SP_GrabaImagen:
+		Edgar: Hacer que el sp también grabe el archivo en una tabla de nombre MMarca en un campo ImagenMarca. Confirmar cuando este:__________________
+		Maco: Hacer que el campo flgImg dentro de MaeS cambie a True cuando se ejecute el SP. Confirmar cuando este:__________________
+		Byron: Hacer que el sp cambie a True el campo flgIMG dentro de MMArca cuando se ejecute. Confirmar cuando este:__________________
