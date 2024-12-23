@@ -1,7 +1,10 @@
 CONCEPTOS Y EJERCICIOS POR Fernando
 1. Para que sirve y como se utiliza: git config --global user.name 
+	R// Sirve para establecer o cambiar mi nombre de usuario en el git bash , para hacerlo pongo el comando y luego mi nombre de usuario deseado y enter
 2. Para que sirve y como se utiliza: git config --global user.email
+	R// Sirve para establecer o cambiar mi correo en el git bash. Al igual que con el usuario, si opera el comando con el correo escrito
 3. Como ver la version de GIT?
+	R// Se debe ejecutar el comando git --version en el git bash para saber cual es
 
 CONCEPTOS Y EJERCICIOS POR MACO
 1. Para que sirve y como se utiliza: GIT CLONE
